@@ -453,7 +453,7 @@ const translations = {
                 "تصميم",
                 "نمذجة أولية"
             ],
-            "footerBottom": "©  SAULBE Ltd. مصمم ومطور ومدار بواسطة "
+            "footerBottom": " مصمم ومطور ومدار بواسطة  SAULBE Ltd. © "
         },
         ourAlbum: {
             "title": "ألبومنا",
