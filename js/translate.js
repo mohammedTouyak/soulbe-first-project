@@ -766,10 +766,17 @@ function setBodyDirection(language) {
         // Applique Right-to-Left (RTL)
         body.style.direction = "rtl";
         body.style.textAlign = "right"; // Aligner le texte à droite
+        const logo = document.getElementById("camal-logo");
+        logo.style.marginLeft = "0";
+        logo.style.marginRight = "20rem";
+
     } else {
         // Applique Left-to-Right (LTR)
         body.style.direction = "ltr";
         body.style.textAlign = "left"; // Aligner le texte à gauche
+        const logo = document.getElementById("camal-logo");
+        logo.style.marginRight = "0";
+        logo.style.marginLeft = "20rem";
     }
 }
 

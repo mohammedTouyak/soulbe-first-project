@@ -5,7 +5,7 @@ class headerComponent extends HTMLElement {
                         <div class="container-fluid header">
                             <div class="top-bar">
                                 <a class="navbar-brand" href="#">
-                                    <div class="logo">
+                                    <div class="logo" id="camal-logo">
                                         <img src="./assets/images/camel-logo.png" alt="Camel Logo">
                                     </div>
                                 </a>
@@ -28,16 +28,16 @@ class headerComponent extends HTMLElement {
                                     <a class="nav-link active" aria-current="page" href="index.html">Home<br><small>الرئيسية</small></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#who-we-are">Who We Are?<br><small>من نحن؟</small></a>
+                                    <a class="nav-link active" aria-current="page" href="index.html#who-we-are">Who We Are?<br><small>من نحن؟</small></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#our-services">Our Services<br><small>خدماتنا</small></a>
+                                    <a class="nav-link active" aria-current="page" href="index.html#our-services">Our Services<br><small>خدماتنا</small></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="photos.html">Photos<br><small>الصور</small></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#contact-us">Contact Us<br><small>اتصل بنا</small></a>
+                                    <a class="nav-link active" aria-current="page" href="index.html#contact-us">Contact Us<br><small>اتصل بنا</small></a>
                                 </li>
                                 </ul>
                             </div>
