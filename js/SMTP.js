@@ -21,10 +21,10 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
     // Envoyer l'email via SMTP.js
    // Envoyer l'email via SMTP.js
 Email.send({
-    Host: "ssl0.ovh.net", // Serveur SMTP OVH
+    Host: "", // Serveur SMTP OVH
     Port: 587, // Port SMTP pour TLS (ou 465 pour SSL)
-    Username: "contact@quadragragui.com", // Identifiant SMTP (adresse e-mail complète)
-    Password: "Qu@d123Badr", // Mot de passe SMTP
+    Username: "m", // Identifiant SMTP (adresse e-mail complète)
+    Password: "", // Mot de passe SMTP
     To: "touyakmohammed7@gmail.com", // Adresse e-mail de destination
     From: email, // L'adresse expéditeur 
     Subject: `New message from ${name} ${surname}`,
