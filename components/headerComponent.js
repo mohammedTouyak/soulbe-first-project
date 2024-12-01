@@ -25,7 +25,7 @@ class headerComponent extends HTMLElement {
                             <div class="collapse navbar-collapse" id="navbarSupportedContent" style="border-bottom: 1px solid #f4f4f4;">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home<br><small>الرئيسية</small></a>
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home<br><small>الرئيسية</small></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#who-we-are">Who We Are?<br><small>من نحن؟</small></a>
@@ -34,7 +34,7 @@ class headerComponent extends HTMLElement {
                                     <a class="nav-link active" aria-current="page" href="#our-services">Our Services<br><small>خدماتنا</small></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Photos<br><small>الصور</small></a>
+                                    <a class="nav-link active" aria-current="page" href="photos.html">Photos<br><small>الصور</small></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="#contact-us">Contact Us<br><small>اتصل بنا</small></a>
